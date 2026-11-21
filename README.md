@@ -1,6 +1,10 @@
 # Neural-Network-Experiments
 These are my early projects about neural network. This is basically meant for understanding neural network from the ground up. 
 
+
+NO AI WAS USED TO BUILD MY PROJECTS. THE PROJECTS ARE BUILT BY ME AND I DESIGNED THE ARCHITECTURE.
+
+
 Check Below For more information.
 
 ## Installation
@@ -61,6 +65,4 @@ The Network class can also save and load trained parameters.
 
 And also I built XOR network, Iris network, MNIST network based on this framework.
 You can get more information on the README file in modular_neural_network_framework.
-
-NO AI WAS USED TO BUILD MY PROJECTS. THE PROJECTS ARE BUILT BY ME AND I DESIGNED THE ARCHITECTURE.
 
