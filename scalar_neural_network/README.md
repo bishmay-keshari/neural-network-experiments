@@ -22,17 +22,17 @@ cd neural-network-experiments/scalar_neural_network
 
 `neuron_scalar`:
 ```bash
-python3 -m neuron_scalar.py
+python3 neuron_scalar.py
 ```
 
 `neural_network_linear_scalar`:
 ```bash
-python3n -m neural_network_linear_scalar.py
+python3n neural_network_linear_scalar.py
 ```
 
 `neural_network_non-linear_scalar`:
 ```bash
-python3 -m neural_network_non-linear_matrix.py
+python3 neural_network_non-linear_matrix.py
 ```
 
 ## Experiments

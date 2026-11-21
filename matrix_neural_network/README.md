@@ -28,22 +28,22 @@ cd neural-network-experiments/matrix_neural_network
 
 `neuron_matrix`:
 ```bash
-python3 -m neuron_matrix.py
+python3 neuron_matrix.py
 ```
 
 `neural_network_linear_matrix`:
 ```bash
-python3n -m neural_network_linear_matrix.py
+python3n neural_network_linear_matrix.py
 ```
 
 `neural_network_non-linear_matrix`:
 ```bash
-python3 -m neural_network_non-linear_matrix.py
+python3 neural_network_non-linear_matrix.py
 ```
 
 `multi_layer_neural_network`:
 ```bash
-python3 -m multi_layer_neural_network.py
+python3 multi_layer_neural_network.py
 ```
 
 ## Experiments
