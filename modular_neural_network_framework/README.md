@@ -29,14 +29,15 @@ python3 -m pip install numpy
 Clone the repository:
 
 ```bash
-git clone https://github.com/bishmay-keshari/modular_neural_network_framework-scratch.git
+git clone https://github.com/bishmay-keshari/neural-network-experiments.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd modular_neural_network_framework-scratch
+cd neural-network-experiments/modular_neural_network_framework
 ```
+
 Install it in editor mode:
 
 ```bash
@@ -83,7 +84,7 @@ Dataset paths in `data_preparation.py` currently need to be configured according
 
 ## Experiments
 
-### 1. XOR Neural Network
+### 1. XOR Binary Classification
 
 A neural network designed to learn the XOR logical operation.
 
@@ -165,29 +166,6 @@ Contains different optimization algorithms:
 - SGD with Momentum
 - Adam
 
-## Implementations
-
-- Modular neural network architecture
-- Artificial neurons and layers
-- Weights and biases
-- Forward propagation
-- Backpropagation
-- Chain rule
-- Gradient computation
-- Activation functions and derivatives
-- Xavier and He weight initialization
-- Loss functions
-- Mini-batch training
-- Stochastic Gradient Descent
-- SGD with Momentum
-- Adam optimizer
-- Early Stopping
-- Exponential Moving Average
-- Multiclass classification
-- Model saving and loading
-- Training, validation, and testing
-
-
 ## Project Structure
 
 The project is organized into separate folders to keep the framework and individual experiments independent.
@@ -221,9 +199,4 @@ modular_neural_framework-scratch/
     └── test_MNIST.py
 ```
 
-## Purpose
-
-This repository is part of my personal exploration of artificial intelligence and neural networks.
-
-My earlier experiments focused on understanding neural networks through scalar mathematics and matrix operations. In this project, I wanted to take another step by building a reusable framework that brings those concepts together.
-
+Thank you :D

@@ -7,6 +7,45 @@ These projects build upon my earlier scalar implementations and explore how neur
 
 The goal is to understand how neural networks work internally, including forward propagation, loss calculation, gradient computation, and parameter updates, without relying on a machine-learning framework.
 
+## Requirements
+
+Python 3 and NumPy are required.
+
+Install NumPy with:
+
+```bash
+python3 -m pip install numpy
+```
+
+## Installation
+
+Navigate:
+
+```bash
+cd neural-network-experiments/matrix_neural_network
+```
+## Run Experiments
+
+`neuron_matrix`:
+```bash
+python3 -m neuron_matrix.py
+```
+
+`neural_network_linear_matrix`:
+```bash
+python3n -m neural_network_linear_matrix.py
+```
+
+`neural_network_non-linear_matrix`:
+```bash
+python3 -m neural_network_non-linear_matrix.py
+```
+
+`multi_layer_neural_network`:
+```bash
+python3 -m multi_layer_neural_network.py
+```
+
 ## Experiments
 
 ### 1. Single Neuron — `neuron_matrix.py`
@@ -56,24 +95,7 @@ A deeper neural network with three hidden layers containing 8, 16, and 8 neurons
 - Uses he weight initialization.
 - Trains on a custom mathematical relationship involving absolute differences and sums.
 
-This experiment explores how multiple hidden layers can be connected and trained using manually implemented backpropagation.
-
-## Concepts Explored
-
-- Artificial neurons
-- NumPy arrays and matrix multiplication
-- Weights and biases
-- Forward propagation
-- Training data and target values
-- Squared error and loss calculation
-- Learning rates and gradient descent
-- Manual gradient computation
-- Backpropagation
-- The chain rule
-- Activation functions and their derivatives
-- Leaky ReLU
-- Weight initialization
-- Multilayer neural-network architecture
+This is an experiment about how multiple hidden layers can be connected and trained using manually implemented backpropagation.
 
 ## Technologies
 
@@ -84,22 +106,4 @@ These experiments implement the neural-network calculations manually rather than
 
 NOTE - The experiments generate training data and initialize parameters within their scripts. Results may vary between runs when random initialization or random training data are used.
 
-## Requirements
-
-Python 3 and NumPy are required.
-
-Install NumPy with:
-
-```bash
-python3 -m pip install numpy
-```
-
-## Purpose
-
-This repository documents my exploration of neural networks using NumPy and matrix mathematics.
-
-By implementing the calculations myself, I want to understand how neurons, layers, activation functions, gradients, and backpropagation work internally.
-
-These experiments form a step between my scalar implementations and the development of reusable neural-network frameworks.
-
-This is an ongoing personal learning project, and the implementations may evolve as I gain a deeper understanding of neural networks.
+Thnak you :D

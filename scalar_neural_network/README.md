@@ -7,7 +7,35 @@ The goal of these projects is to understand how neurons, weights, biases, forwar
 
 These are learning experiments built out of curiosity and a desire to understand the mathematics behind neural networks.
 
-## Projects
+## Requirements
+python
+
+## Installation
+
+Navigate:
+
+```bash
+cd neural-network-experiments/scalar_neural_network
+```
+
+## Run Experiments
+
+`neuron_scalar`:
+```bash
+python3 -m neuron_scalar.py
+```
+
+`neural_network_linear_scalar`:
+```bash
+python3n -m neural_network_linear_scalar.py
+```
+
+`neural_network_non-linear_scalar`:
+```bash
+python3 -m neural_network_non-linear_matrix.py
+```
+
+## Experiments
 
 ### 1. Single Neuron — `neuron_scalar.py`
 
@@ -45,37 +73,13 @@ A neural network with seven hidden neurons and one output neuron, using the Leak
 
 This experiment introduced me to activation functions and the role of the chain rule in training a nonlinear neural network.
 
-## Concepts Explored
-
-- Artificial neurons
-- Weights and biases
-- Forward propagation
-- Training data and target values
-- Prediction errors and squared loss
-- Learning rates
-- Gradient descent
-- Manual gradient calculations
-- Activation functions
-- Leaky ReLU and its derivative
-- The chain rule
-- Training and testing phases
-
 ## Technologies
 
 - Python
 - Python's built-in `random` module
-- Scalar arithmetic and manually implemented mathematics
 
 No machine learning frameworks are used in these experiments.
 
 NOTE - The experiments generate training data and initialize parameters within their scripts. Results may vary between runs when random initialization or random training data are used.
 
-## Purpose
-
-These projects are part of my personal exploration of artificial intelligence and neural networks.
-
-I am interested in understanding how neural networks work from the mathematical foundations upward.
-
-These scalar experiments are an early stage of that journey, before moving on to matrix-based implementations with NumPy and eventually exploring PyTorch.
-
-This repository documents my learning process, experiments, and progress in understanding neural networks from scratch.
+Thank you :D
