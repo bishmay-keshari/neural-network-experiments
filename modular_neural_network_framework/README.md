@@ -24,14 +24,6 @@ Python 3 and NumPy are required.
 python3 -m pip install numpy
 ```
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/bishmay-keshari/neural-network-experiments.git
-```
-
 Navigate to the project directory:
 
 ```bash
