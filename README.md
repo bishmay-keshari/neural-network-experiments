@@ -1,6 +1,6 @@
 # Neural-Network-Experiments
 These are my early projects about neural network. This is basically meant for understanding neural network from the ground up. 
-
+ 
 
 NO AI WAS USED TO BUILD MY PROJECTS. THE PROJECTS ARE BUILT BY ME AND I DESIGNED THE ARCHITECTURE.
 
