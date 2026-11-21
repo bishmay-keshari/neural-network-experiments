@@ -62,5 +62,5 @@ The Network class can also save and load trained parameters.
 And also I built XOR network, Iris network, MNIST network based on this framework.
 You can get more information on the README file in modular_neural_network_framework.
 
-NO AI WAS USED TO BUILD MY PROJECTS. THE PROJECTS ARE BUILD BY ME, DESIGNED BY ME.
+NO AI WAS USED TO BUILD MY PROJECTS. THE PROJECTS ARE BUILT BY ME AND I DESIGNED THE ARCHITECTURE.
 
