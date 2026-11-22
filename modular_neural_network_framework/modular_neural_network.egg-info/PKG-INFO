@@ -3,6 +3,4 @@ Name: modular_neural_network
 Version: 0.1.0
 Summary: A neural_network_framework built from scratch using NumPy
 Requires-Python: >=3.9
-License-File: LICENSE
 Requires-Dist: numpy
-Dynamic: license-file

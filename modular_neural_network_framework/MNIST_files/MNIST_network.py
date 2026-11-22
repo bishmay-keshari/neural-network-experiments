@@ -25,7 +25,7 @@ test_input, test_target = test_data[0]
 
 # TRAINING
 epochs = 500
-epoch_print_interval = 10
+epoch_print_interval = 1
 
 learning_rate = 0.001
 batch_size = 32
@@ -33,7 +33,7 @@ batch_size = 32
 loss_function = categorical_cross_entropy
 loss_function_derivative = categorical_cross_entropy_derivative
 
-early_stopping = Early_Stopping(patience=50, min_delta=1e-4)
+early_stopping = Early_Stopping(patience=10, min_delta=1e-4)
 exponential_moving_average = Exponential_Moving_Average(network, decay=0.99)
 
 optimizer = Adam(beta1=0.9, beta2=0.999, epsilon=1e-8)

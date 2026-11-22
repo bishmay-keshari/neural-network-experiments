@@ -4,7 +4,7 @@ from framework_files import activations
 from framework_files.numpy_framework import Layer, Network, Early_Stopping, Exponential_Moving_Average
 from framework_files.losses import categorical_cross_entropy, categorical_cross_entropy_derivative
 from framework_files.optimizers import Adam
-from framework_files.data_preparation import iris
+from framework_files.data_preparation import Iris
 
 np.random.seed(7)
 
@@ -17,7 +17,7 @@ network = Network([
 ])
 
 # DATASET
-training_data, validation_data, test_data = iris.iris_data()
+training_data, validation_data, test_data = Iris.Iris_data()
 
 train_input, train_target = training_data[0]
 validation_input, validation_target = validation_data[0]
