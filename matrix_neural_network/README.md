@@ -97,13 +97,6 @@ A deeper neural network with three hidden layers containing 8, 16, and 8 neurons
 
 This is an experiment about how multiple hidden layers can be connected and trained using manually implemented backpropagation.
 
-## Technologies
-
-- Python 3
-- NumPy
-
-These experiments implement the neural-network calculations manually rather than using frameworks such as PyTorch or TensorFlow.
-
 NOTE - The experiments generate training data and initialize parameters within their scripts. Results may vary between runs when random initialization or random training data are used.
 
 Thnak you :D
