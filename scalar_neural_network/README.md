@@ -73,13 +73,6 @@ A neural network with seven hidden neurons and one output neuron, using the Leak
 
 This experiment introduced me to activation functions and the role of the chain rule in training a nonlinear neural network.
 
-## Technologies
-
-- Python
-- Python's built-in `random` module
-
-No machine learning frameworks are used in these experiments.
-
 NOTE - The experiments generate training data and initialize parameters within their scripts. Results may vary between runs when random initialization or random training data are used.
 
 Thank you :D
