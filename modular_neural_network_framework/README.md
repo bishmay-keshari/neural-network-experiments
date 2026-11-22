@@ -6,14 +6,6 @@ The framework is built using NumPy and implements the fundamental operations inv
 
 The project also explores how the same framework can be used to solve different problems, from simple logical operations to multiclass classification and handwritten digit recognition.
 
-## Technologies
- 
-- Python 3
-- NumPy
-- Python standard libraries- 'csv', 'struct', 'pathlib'
-
-The neural network calculations are implemented using NumPy without relying on deep-learning frameworks.
-
 ## Requirements
 
 Python 3 and NumPy are required.
