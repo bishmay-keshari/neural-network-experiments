@@ -34,7 +34,7 @@ python3n neural_network_linear_scalar.py
 ```bash
 python3 neural_network_non-linear_matrix.py
 ```
-
+ 
 ## Experiments
 
 ### 1. Single Neuron — `neuron_scalar.py`

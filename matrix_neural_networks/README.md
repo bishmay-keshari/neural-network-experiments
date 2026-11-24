@@ -45,7 +45,7 @@ python3 neural_network_non-linear_matrix.py
 ```bash
 python3 multi_layer_neural_network.py
 ```
-
+ 
 ## Experiments
 
 ### 1. Single Neuron — `neuron_matrix.py`
