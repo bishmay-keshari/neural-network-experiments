@@ -15,8 +15,8 @@ network = Network([
 ])
 
 # TRAINING
-input_data  = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-target = np.array([[0], [1], [1], [0]])
+input_data  = np.array([[0.0, 0.0], [0.0, 1.0], [1.0, 0.0], [1.0, 1.0]], dtype=np.float32)
+target = np.array([[0.0], [1.0], [1.0], [0.0]],dtype=np.float32)
 
 training_data = [(input_data, target)]
 
@@ -39,8 +39,8 @@ print("Target:", target, "Output:", output)
 print("Loss:", loss)
 
 # ACCURACY
-predicted_classes = np.argmax(output, axis=1)
-accuracy = np.mean(predicted_classes == np.argmax(target, axis=1))
+predicted_classes = (output >= 0.5)
+accuracy = np.mean(predicted_classes == target)
 print("Accuracy:", accuracy)
 
 # SAVE SYSTEM
