@@ -13,7 +13,7 @@ network = Network([
 
 training_data, validation_data, test_data = Iris.Iris_data()
 test_input, test_target = test_data[0]
-network.load("iris_network.npz")
+network.load("Iris_network.npz")
 
 output = network.forward(test_input)
 print(f"Output: {output}")

@@ -10,7 +10,7 @@ network = Network([
 ])
 
 input_data  = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-network.load("xor_network.npz")
+network.load("XOR_network.npz")
 
 output = network.forward(input_data)
 print(f"Output: {output}")
